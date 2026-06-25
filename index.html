@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <meta name="description"
+        content="Re-imagined project that uses HTML5, CSS Flexbox, and vanilla JavaScript for displaying and presenting information about books">
+    <meta name="author" content="Fionn Ross">
+    <!-- PROJECT CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Fionn Ross | BookNotes Project Built With HTML5, CSS Flexbox, and Vanilla JavaScript | Home
+    </title>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="primary-header">
+            <div class="nav-wrapper">
+                <a href="#"><img src="./images/logo.svg" class="logo" alt="logo" /></a>
+
+                <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                    <img class="icon-hamburger" src="./images/icon-hamburger.svg" alt="" aria-hidden="true">
+                    <img class="icon-close" src="./images/icon-close.svg" alt="" aria-hidden="true">
+                    <span class="visually-hidden">Menu</span>
+                </button>
+                <nav class="primary-navigation" id="primary-navigation">
+                    <!-- links -->
+                    <ul aria-label="Primary" role="list" class="nav-list">
+                        <li>
+                            <a href="index.html">home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">about</a>
+                        </li>
+                        <li>
+                            <a href="projects.html">projects</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">contact</a>
+                        </li>
+                    </ul>
+            </div>
+            </nav>
+        </header><!-- ./ end class primary header with logo & navigation -->
+        <header class="secondary-header">
+            <div class="hero-container">
+                <div class="hero">
+                    <h1 class="fs-700 ff-serif text-dark">Welcome to BookNotes 3.0 </h1>
+                    <p class="ff-sans-normal">This is yet another reworking of a <a
+                            href="https://github.com/rossfion/capstone-project-5" target="_blank">Node.js-based
+                            project</a> I built for Udemy Instructor Dr. Angela Yu's <a
+                            href="https://www.udemy.com/course/the-complete-web-development-bootcamp/"
+                            target="_blank">Web Developer Bootcamp</a>. It is inspired by <a href="https://sive.rs/book"
+                            target="_blank">David Siver's own website</a> devoted to documenting all the non-fiction
+                        books he has read with some information about them. The covers are courtesy of the <a
+                            href="https://openlibrary.org/dev/docs/api/covers" target="_blank">Open Library Book Covers
+                            API</a>. This third version is built with HTML5, CSS Flexbox, CSS Grid, and Vanilla
+                        JavaScript. No frameworks for styling or JavaScript!</p>
+                    <p>The previous version can be found <a
+                            href="https://github.com/rossfion/HTML-CSS-JS-BookNotes-Project-v1"
+                            target="_blank">here</a>. It is version one because it a re-imagining of the project using
+                        front-end technologies only.</p>
+                    <p class="ff-serif"><a href="https://openlibrary.org/">Courtesy link to the Open Library</a></p>
+                </div> <!-- ./ end class hero -->
+            </div>
+        </header><!-- end class secondary header -->
+        <main>
+            <!-- books -->
+            <section class="books">
+                <!-- title -->
+                <div class="title">
+                    <h2>our books</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <!-- books -->
+                <div class="books-center">
+                    <!-- loading -->
+                    <!-- <div class="loading"></div> -->
+                    <div class="books-container">
+
+                        <!-- single book-->
+
+                        <!-- books cover images generated dynamically using JavaScript -->
+
+                        <!-- ./ end single book-->
+
+                    </div> <!-- ./ end class books container-->
+                    <!-- <p class="error">there was an error</p> -->
+                </div> <!-- ./ end class books center-->
+            </section>
+
+        </main>
+                
+                <script src="./js/app.js"></script>
+</body>
+
+</html>
