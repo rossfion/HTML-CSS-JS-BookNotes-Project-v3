@@ -24,3 +24,5 @@ Coding Addict logo is courtesy of Yanis Smilga.
 No AIs (such as ChatGPT) were used in the rebuilding of this project. Just generic online search. And researching online documentation.
 
 No third-party libraries (except for Google Fonts) were used in the rebuilding of this project. 
+
+<a href="https://github.com/rossfion/HTML-CSS-JS-BookNotes-Project-v4" target="_blank">Link to the fourth and final version</a> of its kind. At least, for now...
